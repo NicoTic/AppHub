@@ -11,9 +11,6 @@ import androidx.compose.ui.tooling.preview.Preview
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
-            NewStory()
-        }
     }
 }
 
@@ -31,13 +28,5 @@ fun DefaultPreview(){
     NewStory()
 }
 
-@Composable
-fun Columing(modifier: Modifier.padding(16.dp)){
-    Column{
-        Text("Hello")
-        Text("World")
-        Text("Android")
-    }
-}
 
 
