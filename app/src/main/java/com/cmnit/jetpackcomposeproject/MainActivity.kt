@@ -12,20 +12,23 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            Greeting("Android")
+            NewStory()
         }
     }
 }
 
 @Composable
-fun Greeting(name:String){
-    Text(text = "Hello $name")
+fun NewStory(){
+    Text("A day in Shake Fin Cove")
+    Text("Davenport,California")
+    Text("December 2018")
 }
+
 
 @Preview
 @Composable
-fun PreviewGreeting(){
-    Greeting("Android")
+fun DefaultPreview(){
+    NewStory()
 }
 
 @Composable
