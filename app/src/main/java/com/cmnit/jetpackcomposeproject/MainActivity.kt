@@ -29,13 +29,12 @@ fun PreviewGreeting(){
 }
 
 @Composable
-fun Columing(){
+fun Columing(modifier: Modifier.padding(16.dp)){
     Column{
         Text("Hello")
         Text("World")
         Text("Android")
     }
-    Greeting("Android")
 }
 
 
