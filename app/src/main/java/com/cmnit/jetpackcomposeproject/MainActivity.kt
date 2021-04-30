@@ -25,11 +25,5 @@ fun NewStory(){
 }
 
 
-@Preview
-@Composable
-fun DefaultPreview(){
-    NewStory()
-}
-
 
 
